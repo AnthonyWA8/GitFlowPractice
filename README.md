@@ -1,21 +1,21 @@
 # Nombre del Proyecto
 
-API de Practica Git Flow
+API de Práctica Git Flow
 
 ## Descripción
 
 Este proyecto es una mini API construida con Express para practicar Git Flow en una actividad guiada.
 
-La API tiene un endpoint de estado que permite comprobar que el servidor esta funcionando correctamente.
+La API tiene un endpoint de estado que permite comprobar que el servidor está funcionando correctamente.
 
 ## Instalación
 
-Requisitos minimos:
+### Requisitos mínimos
 
-- Node.js 20 o superior.
-- npm install.
+- Node.js 20 o superior
+- npm
 
-Pasos:
+### Pasos
 
 ~~~bash
 git clone https://github.com/TU_USUARIO/NOMBRE_DEL_REPO.git
@@ -25,24 +25,24 @@ npm install
 
 ## Uso
 
-Levantar el servidor local:
+### Levantar el servidor local
 
 ~~~bash
 npm start
 ~~~
 
-Probar el endpoint:
+### Probar el endpoint
 
 ~~~bash
 curl http://localhost:3008/api/estado
 ~~~
 
-Respuesta esperada:
+### Respuesta esperada
 
 ~~~json
 {
   "ok": true,
-  "mensaje": "API de practica Git Flow funcionando",
+  "mensaje": "API de práctica Git Flow funcionando",
   "version": "1.0.0"
 }
 ~~~
@@ -50,23 +50,23 @@ Respuesta esperada:
 Si usas navegador, abre:
 
 ~~~text
-http://localhost:3000/api/estado
+http://localhost:3008/api/estado
 ~~~
 
 ## Autores
 
-- [Anthony] - [desarrollador]
-- [Camila] - [analista]
+- Anthony — Desarrollador
+- Camila — Analista
 
 ## Flujo de trabajo Git
 
-Durante la práctica se usará Git Flow:
+Durante la práctica se utilizará Git Flow con las siguientes ramas:
 
-- main: rama principal y estable.
-- develop: rama de integración.
-- feature/readme-base: rama para crear la primera versión del README.
-- feature/documentacion-extra: rama para mejorar la documentación.
-- release/v1.0.0: rama para preparar la entrega final.
-- hotfix/readme-typo: rama para corregir un error menor.
+- `main`: rama principal y estable.
+- `develop`: rama de integración.
+- `feature/readme-base`: rama para crear la primera versión del README.
+- `feature/documentacion-extra`: rama para mejorar la documentación.
+- `release/v1.0.0`: rama para preparar la entrega final.
+- `hotfix/readme-typo`: rama para corregir un error menor.
 
-La versión final se marcará con el tag v1.0.0.
+La versión final se marcará con el tag `v1.0.0`.
