@@ -55,8 +55,8 @@ http://localhost:3008/api/estado
 
 ## Autores
 
-- Anthony — Desarrollador
-- Camila — Analista
+- Anthony — (Desarrollador)
+- Camila — (Analista)
 
 ## Flujo de trabajo Git
 
