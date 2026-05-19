@@ -10,7 +10,7 @@ La API tiene un endpoint de estado que permite comprobar que el servidor esta fu
 
 ## Instalación
 
-Requisitos:
+Requisitos minimos:
 
 - Node.js 20 o superior.
 - npm.
